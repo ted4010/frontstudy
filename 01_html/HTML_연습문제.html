@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>문제 4번</h1>
+  <form action="/server/anywhere" method="post">
+    아이디<input type="text" name="id" placeholder="아이디" required> <br>
+    비밀번호<input type="text" name="password" placeholder="비밀번호" required> <br>
+    비밀번호확인<input type="text" name="passwordcheck" placeholder="비밀번호화" required> <br>
+    이메일<input type="text" placeholder="이메일" required>
+    @<input type="text" placeholder="직접 입력 기능" list="domain">
+    <datalist id="domain">
+     <option>gmail.com</option>
+     <option>naver.com</option>
+     <option>daum.net</option>
+    </datalist>
+    <br>
+  
+  
+    <input type="radio" name="gender" value="man" id="man">
+    <label for="man">남자</label>
+    <input type="radio" name="gender" value="woman" id="woman">
+    <label for="woman">여자</label>
+    
+    <br>
+    
+    <input type="checkbox" name="it">IT
+    <input type="checkbox" name="management">경영<br>
+    <input type="checkbox" name="finance"> 금융
+    <input type="checkbox" name="making">제조 <br>
+    <input type="checkbox" name="service"> 서비스
+    <input type="checkbox" name="besides"> 기타 <br>
+
+    거주지<input type="text" placeholder="::선택하세요::" list="domai">
+    <datalist id="domai">
+      <option>::선택하세요::</option>
+      <option>서울</option>
+      <option>대전</option>
+      <option>대구</option>
+      <option>부산</option>
+      <option>인천</option>
+    </datalist>
+    <br>
+    
+    자기소개<br>
+    <textarea rows="5" cols="40" placeholder="200자 이내 간단히 작성"></textarea>
+    <br>
+
+    이력서 <input type="file" name="profile">
+    <br>
+
+    제출일<input type="text" name="day">
+    <br>
+
+    <button type="submit">제출</button>
+    <button type="reset">다시입력</button>
+  </form>  
+
+  <h1>문제 1번</h1>
+  <ul><li><h2>운동</h2></li>
+    <ul><li type="circle">축구</li>
+      <ul>
+        <li type="square">공격수</li>
+        <li type="square">수비수</li>
+        <li type="square">골키퍼</li>
+      </ul>
+    </ul>
+    <ul><li type="circle">야구</li>
+      <ul>
+        <li type="square">투수</li>
+        <li type="square">포수</li>
+        <li type="square">야수</li>
+      </ul>
+    </ul>
+  </ul>
+  </ul>
+
+  <br>
+
+  <ul><li><h2>준비물</h2></li>
+    <ul>
+      <ul>
+        <li type="square">김치</li>
+        <li type="square">참치</li>
+      </ul>
+    </ul>
+    <br>
+    <ul><li>조리법</li>
+      <br>
+      <ol>
+        <li>물을 500cc 넣고 끓인다.</li>
+        <li>김치를 넣는다.</li>
+        <li>참치를 넣는다.</li>
+     </ol>  
+    </ul>  
+  </ul>
+
+  <h1>문제 2번</h1>
+  <table border="1">
+    <tbody>
+      <tr>
+        <td rowspan="4">1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>    
+      </tr>
+      <tr>
+        <td>11</td>
+        <td rowspan="3">12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>       
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>       
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>       
+      </tr>
+      <tr>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>       
+      </tr>
+    </tbody>
+  </table>
+     
+
+</body>
+</html>
