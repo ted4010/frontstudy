@@ -154,7 +154,7 @@
     /*
       인라인 이벤트 모델
       1. HTML 구성 요소에 이벤트 속성을 등록하고 이벤트 리스너를 넣는 방식이다.
-      2. 이름이 있는 함수를 인라인 이벤트로 드록하는 것이 일반적이다.
+      2. 이름이 있는 함수를 인라인 이벤트로 등록하는 것이 일반적이다.
     */
 
     function myFunc(btn) {
@@ -204,7 +204,7 @@
     // 서브밋 이벤트 대상은 <form> 태그로 잡아야 한다.
     document.querySelector('#div5 form').onsubmit = function(evt) {
       if(document.getElementById('query').value === '') {
-        alert('입력1하시오.');
+        alert('입력하시오.');
         document.getElementById('query').focus();
         evt.preventDefault();
         return;
